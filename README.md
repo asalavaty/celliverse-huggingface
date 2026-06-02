@@ -1,9 +1,11 @@
 ---
-title: CelliVerse | ClustoCell PBMC3K Demo
+title: CelliVerse
 emoji: 🧬
 colorFrom: blue
 colorTo: green
 sdk: gradio
+sdk_version: 6.15.2
+python_version: "3.11"
 app_file: app.py
 pinned: false
 license: gpl-3.0

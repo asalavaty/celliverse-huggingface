@@ -325,9 +325,7 @@ custom_css = """
 """
 
 with gr.Blocks(
-    title="CelliVerse | ClustoCell PBMC3K Demo",
-    theme=gr.themes.Soft(),
-    css=custom_css,
+    title="CelliVerse"
 ) as demo:
 
     with gr.Tab("Overview"):
@@ -573,4 +571,8 @@ https://github.com/asalavaty/celliverse/issues
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(
+        theme=gr.themes.Soft(),
+        css=custom_css,
+        ssr_mode=False
+    )
