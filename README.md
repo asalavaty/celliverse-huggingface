@@ -60,8 +60,6 @@ ClustoCell PBMC3K
 About
 ```
 
-This structure allows additional CelliVerse modules to be added later as new top-level tabs while keeping the current ClustoCell PBMC3K demo grouped in one place.
-
 ---
 
 ## Current demo: ClustoCell PBMC3K
