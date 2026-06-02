@@ -325,7 +325,9 @@ custom_css = """
 """
 
 with gr.Blocks(
-    title="CelliVerse"
+    title="CelliVerse",
+    theme=gr.themes.Soft(),
+    css=custom_css
 ) as demo:
 
     with gr.Tab("Overview"):
@@ -569,10 +571,5 @@ https://github.com/asalavaty/celliverse/issues
 """
         )
 
-
 if __name__ == "__main__":
-    demo.launch(
-        theme=gr.themes.Soft(),
-        css=custom_css,
-        ssr_mode=False
-    )
+    demo.launch()
