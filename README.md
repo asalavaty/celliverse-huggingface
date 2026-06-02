@@ -7,7 +7,7 @@ sdk: gradio
 app_file: app.py
 pinned: false
 license: gpl-3.0
-short_description: A lightweight CelliVerse Space with a ClustoCell PBMC3K mini-demo.
+short_description: CelliVerse ClustoCell PBMC3K demo
 tags:
   - single-cell
   - scRNA-seq
